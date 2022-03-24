@@ -388,3 +388,68 @@ textarea {
   font-size: 3rem;
   cursor: pointer;
 }
+
+/* media queries */
+
+@media (max-width: 25em) {
+  .header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .nav {
+    display: none;
+  }
+
+  .hero-content {
+    align-items: flex-start;
+    text-align: start;
+    height: 70vh;
+  }
+
+  .hero h1 {
+    font-size: 3rem;
+    line-height: 1.5;
+  }
+
+  .about .about-content {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .about img {
+    display: none;
+  }
+
+  .cards {
+    grid-template-columns: 1fr;
+  }
+
+  .contact .contact-content {
+    grid-template-columns: 1fr;
+  }
+
+  .form {
+    order: 1;
+  }
+
+  .alt .foot {
+    grid-template-columns: 1fr;
+  }
+
+  .founder-box {
+    flex-direction: column;
+  }
+
+  .founder-box.box-2 .desc {
+    order: 1;
+  }
+
+  .footer .contents {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
