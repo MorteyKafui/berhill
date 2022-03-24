@@ -434,6 +434,19 @@ textarea {
     order: 1;
   }
 
+  .form .label {
+    font-size: 2rem;
+  }
+
+  .group input,
+  .group textarea {
+    font-size: 2rem;
+  }
+
+  .form form .form-btn {
+    font-size: 1.8rem;
+  }
+
   .alt .foot {
     grid-template-columns: 1fr;
   }
