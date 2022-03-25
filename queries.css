@@ -1,0 +1,716 @@
+/* @media (max-width: 59em) {
+  .header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .nav {
+    display: none;
+  }
+
+  .hero-content {
+    align-items: flex-start;
+    text-align: start;
+    height: 70vh;
+    padding-top: 3rem;
+  }
+
+  .hero h1 {
+    font-size: 3.5rem;
+    line-height: 1.5;
+  }
+
+  .hero .text {
+    font-size: 2rem;
+    width: 85%;
+  }
+
+  .hero .hero-btn {
+    padding: 1rem;
+    font-size: 1.5rem;
+  }
+
+  .about .about-content {
+    grid-template-columns: 1fr;
+    text-align: center;
+    font-size: 2rem;
+  }
+
+  .about img {
+    display: none;
+  }
+
+  .services .container .cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr) !important;
+    font-size: 2rem;
+  }
+
+  .contact {
+    font-size: 2rem;
+  }
+
+  .contact .contact-content {
+    grid-template-columns: 1fr;
+    font-size: 2rem;
+  }
+
+  .form {
+    order: 1;
+  }
+
+  .form .label {
+    font-size: 2rem;
+  }
+
+  .group input,
+  .group textarea {
+    font-size: 2rem;
+  }
+
+  .form form .form-btn {
+    font-size: 2rem;
+  }
+
+  .alt .foot {
+    grid-template-columns: 1fr 1fr;
+    font-size: 2rem;
+  }
+
+  .founder-box {
+    flex-direction: column;
+  }
+
+  .desc h3 {
+    font-size: 3rem;
+  }
+
+  .founder-box .desc {
+    font-size: 2rem;
+  }
+
+  .founder-box.box-2 .desc {
+    order: 1;
+  }
+
+  .footer p {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 44em) {
+  .m-y {
+    margin: 5rem 0;
+  }
+
+  .subtitle {
+    font-size: 3rem;
+  }
+
+  .header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .nav {
+    display: none;
+  }
+
+  .hero-content {
+    align-items: flex-start;
+    text-align: start;
+    height: 70vh;
+    padding-top: 3rem;
+  }
+
+  .hero h1 {
+    font-size: 3rem;
+    line-height: 1.5;
+  }
+
+  .hero .text {
+    font-size: 1.6rem;
+  }
+
+  .hero .hero-btn {
+    padding: 1rem;
+    font-size: 1.5rem;
+  }
+
+  .about .about-content {
+    grid-template-columns: 1fr;
+    text-align: center;
+    font-size: 1.3rem;
+  }
+
+  .about img {
+    display: none;
+  }
+
+  .cards {
+    grid-template-columns: 1fr;
+    font-size: 1.5rem;
+  }
+
+  .contact {
+    font-size: 1.5rem;
+  }
+
+  .contact .contact-content {
+    grid-template-columns: 1fr;
+    font-size: 1.5rem;
+  }
+
+  .form {
+    order: 1;
+  }
+
+  .form .label {
+    font-size: 2rem;
+  }
+
+  .group input,
+  .group textarea {
+    font-size: 2rem;
+  }
+
+  .form form .form-btn {
+    font-size: 1.8rem;
+  }
+
+  .alt .foot {
+    grid-template-columns: 1fr;
+  }
+
+  .founder-box {
+    flex-direction: column;
+  }
+
+  .desc h3 {
+    font-size: 2rem;
+  }
+
+  .founder-box .desc {
+    font-size: 1.5rem;
+  }
+
+  .founder-box.box-2 .desc {
+    order: 1;
+  }
+
+  .footer p {
+    font-size: 1.5rem;
+  }
+
+  .footer .contents {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media (max-width: 34em) {
+  .m-y {
+    margin: 5rem 0;
+  }
+
+  .subtitle {
+    font-size: 3rem;
+  }
+
+  .header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .nav {
+    display: none;
+  }
+
+  .hero-content {
+    align-items: flex-start;
+    text-align: start;
+    height: 70vh;
+    padding-top: 3rem;
+  }
+
+  .hero h1 {
+    font-size: 3rem;
+    line-height: 1.5;
+  }
+
+  .hero .text {
+    font-size: 1.6rem;
+  }
+
+  .hero .hero-btn {
+    padding: 1rem;
+    font-size: 1.5rem;
+  }
+
+  .about .about-content {
+    grid-template-columns: 1fr;
+    text-align: center;
+    font-size: 1.3rem;
+  }
+
+  .about img {
+    display: none;
+  }
+
+  .cards {
+    grid-template-columns: 1fr;
+    font-size: 1.5rem;
+  }
+
+  .contact {
+    font-size: 1.5rem;
+  }
+
+  .contact .contact-content {
+    grid-template-columns: 1fr;
+    font-size: 1.5rem;
+  }
+
+  .form {
+    order: 1;
+  }
+
+  .form .label {
+    font-size: 2rem;
+  }
+
+  .group input,
+  .group textarea {
+    font-size: 2rem;
+  }
+
+  .form form .form-btn {
+    font-size: 1.8rem;
+  }
+
+  .alt .foot {
+    grid-template-columns: 1fr;
+  }
+
+  .founder-box {
+    flex-direction: column;
+  }
+
+  .desc h3 {
+    font-size: 2rem;
+  }
+
+  .founder-box .desc {
+    font-size: 1.5rem;
+  }
+
+  .founder-box.box-2 .desc {
+    order: 1;
+  }
+
+  .footer p {
+    font-size: 1.5rem;
+  }
+
+  .footer .contents {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media (max-width: 25em) {
+  .m-y {
+    margin: 5rem 0;
+  }
+
+  .subtitle {
+    font-size: 3rem;
+  }
+
+  .header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .nav {
+    display: none;
+  }
+
+  .hero-content {
+    align-items: flex-start;
+    text-align: start;
+    height: 70vh;
+    padding-top: 3rem;
+  }
+
+  .hero h1 {
+    font-size: 3rem;
+    line-height: 1.5;
+  }
+
+  .hero .text {
+    font-size: 1.6rem;
+  }
+
+  .hero .hero-btn {
+    padding: 1rem;
+    font-size: 1.5rem;
+  }
+
+  .about .about-content {
+    grid-template-columns: 1fr;
+    text-align: center;
+    font-size: 1.3rem;
+  }
+
+  .about img {
+    display: none;
+  }
+
+  .cards {
+    grid-template-columns: 1fr;
+    font-size: 1.5rem;
+  }
+
+  .contact {
+    font-size: 1.5rem;
+  }
+
+  .contact .contact-content {
+    grid-template-columns: 1fr;
+    font-size: 1.5rem;
+  }
+
+  .form {
+    order: 1;
+  }
+
+  .form .label {
+    font-size: 2rem;
+  }
+
+  .group input,
+  .group textarea {
+    font-size: 2rem;
+  }
+
+  .form form .form-btn {
+    font-size: 1.8rem;
+  }
+
+  .alt .foot {
+    grid-template-columns: 1fr;
+  }
+
+  .founder-box {
+    flex-direction: column;
+  }
+
+  .desc h3 {
+    font-size: 2rem;
+  }
+
+  .founder-box .desc {
+    font-size: 1.5rem;
+  }
+
+  .founder-box.box-2 .desc {
+    order: 1;
+  }
+
+  .footer p {
+    font-size: 1.5rem;
+  }
+
+  .footer .contents {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+} */
+
+@media (max-width: 89em) {
+  .container {
+    max-width: 120rem;
+  }
+}
+
+@media (max-width: 60em) {
+  .m-y {
+    margin: 5rem 0;
+  }
+
+  .header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .nav {
+    display: none;
+  }
+
+  .hero-content {
+    margin-bottom: 4rem;
+  }
+  .hero .title {
+    font-size: 4rem;
+  }
+
+  .hero .text {
+    font-size: 1.8rem;
+  }
+
+  .about-content {
+    grid-template-columns: 1fr;
+  }
+
+  .about-content img {
+    display: none;
+  }
+
+  .cards {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .contact-content {
+    grid-template-columns: 1fr;
+  }
+
+  .form {
+    order: 1;
+  }
+
+  .founder-box {
+    flex-direction: column;
+  }
+
+  .founder-box.box-2 .desc {
+    order: 1;
+  }
+}
+
+@media (max-width: 49em) {
+  .hero .title {
+    font-size: 3.5rem;
+  }
+
+  .hero .text {
+    font-size: 1.8rem;
+  }
+
+  .hero-content {
+    align-items: flex-start;
+    text-align: start;
+    height: 70vh;
+    padding-top: 3rem;
+  }
+
+  .hero .hero-btn {
+    padding: 1.8rem;
+    font-size: 1.6rem;
+  }
+}
+
+@media (max-width: 43em) {
+  .hero .title {
+    font-size: 3rem;
+  }
+
+  .hero .text {
+    font-size: 1.8rem;
+  }
+
+  .hero-content {
+    align-items: flex-start;
+    text-align: start;
+    height: 70vh;
+    padding-top: 3rem;
+  }
+
+  .hero .hero-btn {
+    padding: 1.8rem;
+    font-size: 1.6rem;
+  }
+}
+
+@media (max-width: 38em) {
+  .hero .title {
+    font-size: 2.5rem;
+  }
+
+  .hero-content {
+    align-items: flex-start;
+    text-align: start;
+    height: 70vh;
+    padding-top: 3rem;
+  }
+
+  .hero .text {
+    font-size: 1.6rem;
+  }
+
+  .hero .hero-btn {
+    font-size: 1.6rem;
+    padding: 2rem;
+  }
+
+  .about-content {
+    font-size: 1.6rem;
+  }
+
+  .cards {
+    grid-template-columns: 1fr;
+    font-size: 1.7rem;
+  }
+
+  .footer .contents {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (max-width: 33em) {
+  .hero .title {
+    font-size: 2rem;
+  }
+
+  .hero .text {
+    font-size: 1.4rem;
+  }
+
+  .hero .hero-btn {
+    font-size: 1.6rem;
+    padding: 2rem;
+  }
+
+  .hero-content {
+    align-items: flex-start;
+    text-align: start;
+    height: 70vh;
+    padding-top: 3rem;
+  }
+
+  .about-content {
+    font-size: 1.5rem;
+  }
+
+  .cards {
+    grid-template-columns: 1fr;
+    font-size: 1.5rem;
+  }
+
+  .alt .foot {
+    grid-template-columns: 1fr;
+  }
+
+  .group input,
+  textarea {
+    font-size: 1.8rem;
+  }
+
+  .group .label {
+    font-size: 1.8rem;
+  }
+
+  .founder-box p {
+    font-size: 1.5rem;
+  }
+
+  .footer .contents {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (max-width: 23em) {
+  .hero .hero-btn {
+    padding: 1rem;
+    font-size: 1.3rem;
+  }
+
+  .hero .text {
+    font-size: 1.2rem;
+  }
+
+  .hero-content {
+    align-items: flex-start;
+    text-align: start;
+    height: 70vh;
+    padding-top: 3rem;
+  }
+
+  .subtitle {
+    font-size: 2rem;
+  }
+
+  .about-content {
+    font-size: 1.3rem;
+  }
+
+  .cards .card p {
+    font-size: 1.3rem;
+  }
+
+  .alt .head h3 {
+    font-size: 2rem;
+  }
+
+  .alt .head p {
+    font-size: 1.3rem;
+  }
+
+  .alt .foot h4 {
+    font-size: 1.6rem;
+  }
+
+  .form form .form-btn {
+    font-size: 1.5rem;
+  }
+
+  .founder-box .desc h3 {
+    font-size: 1.6rem;
+  }
+
+  .founder-box .desc p {
+    font-size: 1.3rem;
+  }
+
+  .footer .contents p {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 17em) {
+  .hero-content {
+    align-items: flex-start;
+    text-align: start;
+    height: 70vh;
+    padding-top: 3rem;
+  }
+
+  .founder-box .desc h3 {
+    font-size: 1.3rem;
+  }
+
+  .founder-box .desc p {
+    font-size: 1rem;
+  }
+
+  .footer .contents p {
+    font-size: 1.2rem;
+  }
+}
