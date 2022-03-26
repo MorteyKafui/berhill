@@ -156,18 +156,20 @@ img {
 }
 
 .about-content {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  justify-content: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
   gap: 2rem;
 }
 
-.img {
-  object-fit: cover;
+.sub-text:nth-of-type(1) {
+  flex: 0 0 50%;
+  border-right: 1px solid #09009b;
 }
 
 .sub-text {
   letter-spacing: 1px;
+  padding: 2rem;
 }
 
 .cards {
