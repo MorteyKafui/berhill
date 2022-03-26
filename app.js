@@ -7,7 +7,6 @@ year.textContent = new Date().getFullYear();
 const observer = new IntersectionObserver(
   entries => {
     const entry = entries[0];
-    console.log(entry);
 
     if (!entry.isIntersecting) {
       document.body.classList.add('sticky');
